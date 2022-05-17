@@ -1,0 +1,33 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.area {
+  width: 450px;
+  min-height: 100vh;
+  background-color: black;
+  margin: 0 auto;
+  position: relative;
+}
+
+.area .circle {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #e0ac00;
+  border-radius: 50%;
+  background-color: #e0ac00;
+  position: absolute;
+}
+
+.newCircle {
+  width: 40px;
+  height: 40px;
+  background-color: #e0ac00;
+  border: 1px solid #e0ac00;
+  border-radius: 50%;
+  position: absolute;
+}
+/*# sourceMappingURL=style.css.map */

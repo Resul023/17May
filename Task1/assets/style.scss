@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+}
+#form{
+    width: 50%;
+    margin: 10px auto;
+}
+.alert{
+    width: 200px;
+    padding: 20px;
+    display: inline-block;
+    margin-right: 45px;
+    position: relative;
+    .alert-success{
+        width: 100%;
+        position: absolute;
+        
+    }
+    .alert-fail{
+        width: 100%;
+        position: absolute;
+    }
+}
+
+.visible{
+    display: none;
+}

@@ -1,0 +1,40 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#form {
+  width: 50%;
+  margin: 10px auto;
+}
+
+.alert {
+  width: 200px;
+  padding: 20px;
+  display: inline-block;
+  margin-right: 45px;
+  position: relative;
+}
+
+.alert .alert-success {
+  width: 100%;
+  position: absolute;
+}
+
+.alert .alert-fail {
+  width: 100%;
+  position: absolute;
+}
+
+.visible {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

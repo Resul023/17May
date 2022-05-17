@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.area{
+    width: 450px;
+    min-height:100vh ;
+    background-color: black;
+    margin: 0 auto;
+    position: relative;
+}
+.area .circle{
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgb(224, 172, 0);
+    border-radius: 50%;
+    background-color: rgb(224, 172, 0);
+    position:absolute;
+}
+
+.newCircle{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(224, 172, 0);
+    border: 1px solid rgb(224, 172, 0);
+    border-radius: 50%;
+    position: absolute;
+}
